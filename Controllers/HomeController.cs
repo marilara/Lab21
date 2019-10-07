@@ -47,8 +47,19 @@ namespace Lab21.Controllers
 
         public IActionResult Result(Users u)
         {
-            ViewBag.Name = u.FirstName;
-            return View();
+            if(ModelState.IsValid)
+            {
+                ViewBag.Name = u.FirstName;
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Registration","Home");
+            }
+
+
         }
+
+
     }
 }
