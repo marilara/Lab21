@@ -32,3 +32,4 @@ C:\Users\maril\source\repos\Lab21\Lab21\Lab21\obj\Debug\netcoreapp2.1\Lab21.pdb
 C:\Users\maril\source\repos\Lab21\Lab21\Lab21\obj\Debug\netcoreapp2.1\Lab21.csproj.CopyComplete
 C:\Users\maril\source\repos\Lab21\Lab21\Lab21\obj\Debug\netcoreapp2.1\Razor\Views\Home\Registration.g.cshtml.cs
 C:\Users\maril\source\repos\Lab21\Lab21\Lab21\obj\Debug\netcoreapp2.1\Razor\Views\Home\Result.g.cshtml.cs
+C:\Users\maril\source\repos\Lab21\Lab21\Lab21\obj\Debug\netcoreapp2.1\Razor\Views\Home\OrderForm.g.cshtml.cs

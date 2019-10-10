@@ -1,0 +1,23 @@
+﻿<style>
+    form label {
+        display: inline-block;
+        width: 150px;
+        font-weight: bold;
+    }
+</style>
+
+
+<h2>Please complete the form to have your order filled!</h2>
+<br />
+<h3>Item Order Form</h3>
+<br />
+
+<form method="post" action="Result">
+    <label for="Name">Item Name:</label> <input type="text" required maxlength="20" name="Name" /> <p></p>
+    <label for="Price">Item Price:</label> <input type="number" required min="1" max="150" step="0.01" name="Price" /> <p></p>
+    <label for="Quantity">Item Quanity:</label> <input type="number" required min="1" max="1000" name="Quantity" /> <p></p>
+    <label for="Description">Item Description:</label> <input type="text" required maxlength="2000" name="Description" /> <p></p>
+    <p></p>
+
+    <input type="submit" />
+</form>

@@ -45,21 +45,28 @@ namespace Lab21.Controllers
             return View();
         }
 
-        public IActionResult Result(Users u)
+        public IActionResult OrderForm()
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                ViewBag.Name = u.FirstName;
                 return View();
             }
             else
             {
-                return RedirectToAction("Registration","Home");
+                return RedirectToAction("Registration", "Home");
             }
-
-
         }
 
-
+        public IActionResult Result()
+        {
+            if (ModelState.IsValid)
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("OrderForm", "Home");
+            }
+        }
     }
 }

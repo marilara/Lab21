@@ -11,28 +11,26 @@ font-weight: bold;
 <h3>Please fill the form to register!</h3> <br />
 
 <form method="post" action="Result">
-    <label for="FirstName">First Name:</label> <input type="text" name="FirstName" /> <p></p>
-    <label for="LastName">Last Name:</label> <input type="text" name="LastName" /> <p></p>
-    <label for="Email">Email:</label> <input type="email" name="Email" /> <p></p>
-    <label for="PhoneNumber">Phone Number:</label> <input type="text" name="PhoneNumber" /> <p></p>
-    <label for="Pasword">Password:</label> <input type="password" name="Password" /> <p></p>
+    <label for="FirstName">First Name:</label> <input type="text" required name="FirstName" /> <p></p>
+    <label for="LastName">Last Name:</label> <input type="text" required name="LastName" /> <p></p>
+    <label for="Email">Email:</label> <input type="email" required name="Email" /> <p></p>
+    <label for="PhoneNumber">Phone Number:</label> <input type="text" required name="PhoneNumber" /> <p></p>
+    <label for="Pasword">Password (8 characters minimum):</label> <input type="password" required minlength="8" maxlength="20" name="Password" /> <p></p>
     <p></p>
 
-    Would you like to receive coupons by: <br />
-    <input type="radio" name="Coupons" /> Email
-    <input type="radio" name="Coupons" /> Text
-    <input type="radio" name="Coupons" /> Both
-    <input type="radio" name="Coupons" /> None
+    <label for="Gender">Gender:</label> <br />
+    <input type="radio" name="Gender" /> Female
+    <input type="radio" name="Gender" /> Male
+    <input type="radio" name="Gender" /> Other
+    <input type="radio" name="Gender" /> Prefer not to answer
     <p></p>
 
-    Select the type of coupons you are interested in: <br/>
-    <input type="checkbox" name="Coffee" /> Coffee
+    <label for="ContactPrefrence">What is the best way to contact you? (select all that apply):</label> <br/>
+    <input type="checkbox" name="Email" /> Email
     <br />
-    <input type="checkbox" name="Tea" /> Tea
+    <input type="checkbox" name="Phone" /> Phone
     <br />
-    <input type="checkbox" name="MealCombos" /> Meal Combos
-    <br />
-    <input type="checkbox" name="BakedGoods" /> Baked Goods
+    <input type="checkbox" name="Mail" /> Mail
     <p></p>
 
     <input type="submit" />
