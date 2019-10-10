@@ -55,7 +55,7 @@ using Lab21.Models;
             WriteLiteral("<br />\r\n<h2>\r\n    Welcome to the GrandCircus Coffee Supply Store!\r\n    ");
             EndContext();
             BeginContext(71, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fb6861078e3b4188b0fa2897a0d66365", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "780a76e02ab746aba03b566386f40968", async() => {
                 BeginContext(122, 8, true);
                 WriteLiteral("Register");
                 EndContext();

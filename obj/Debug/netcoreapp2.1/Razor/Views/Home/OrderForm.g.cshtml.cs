@@ -56,7 +56,7 @@ using Lab21.Models;
             WriteLiteral("<style>\r\n    form label {\r\n        display: inline-block;\r\n        width: 150px;\r\n        font-weight: bold;\r\n    }\r\n</style>\r\n\r\n\r\n<h2>Please complete the form to have your order filled!</h2>\r\n<br />\r\n<h3>Item Order Form</h3>\r\n<br />\r\n\r\n");
             EndContext();
             BeginContext(237, 581, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1b194fb2252e44b5a60aa67ff0003e0f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7adcdc008a2546febd28aaa103224933", async() => {
                 BeginContext(273, 538, true);
                 WriteLiteral(@"
     <label for=""Name"">Item Name:</label> <input type=""text"" required maxlength=""20"" name=""Name"" /> <p></p>
